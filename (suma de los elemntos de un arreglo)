@@ -1,0 +1,24 @@
+#desarrollo de suma de los elementos de un arreglo que fue la eleccion que tome 
+#include <iostream>
+#include <vector>
+using namespace std;
+
+int main() {
+    int n;
+    int suma = 0;
+
+    cout << "Ingrese el tamano del arreglo: ";
+    cin >> n;
+
+    vector<int> arreglo(n);
+
+    for (int i = 0; i < n; i++) {
+        cout << "Ingrese el elemento " << i + 1 << ": ";
+        cin >> arreglo[i];
+        suma = suma + arreglo[i];
+    }
+
+    cout << "La suma de los elementos es: " << suma << endl;
+
+    return 0;
+}
