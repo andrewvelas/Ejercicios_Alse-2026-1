@@ -1,4 +1,5 @@
 #calculo de maximo comun divisor
+
 #include <iostream>
 using namespace std;
 
